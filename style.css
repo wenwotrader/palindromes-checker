@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    background: #eedfdc;
+}
+
+h1{
+    padding-top: 300px;
+    padding-bottom: 30px;
+}
+
+.main{
+    width: 600px;
+    background: #FA927C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+input[type="text"]{
+    height: 24px;
+    width: 200px;
+    margin-right: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+}
+
+input{
+    outline: none;
+}
+
+#result {
+    display: none;
+    word-break: break-all;
+    padding-bottom: 20px;
+}
+
+.input-contain{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+p {
+    padding: 20px 20px;
+    font-size: 24px;
+}
+
+#check-btn {
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #00000070;
+}
+
+#check-btn:hover{
+    cursor: pointer;
+}
